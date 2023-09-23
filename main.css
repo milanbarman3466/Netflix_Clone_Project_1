@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Saira:wght@100;200;300;400;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#main {
+  width: 100%;
+  height: 100%;
+}
+
+.layer {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.842) 0px,
+    rgba(0, 0, 0, 0.402) 60%,
+    rgba(0, 0, 0, 0.886) 100%
+  );
+}
+
+
+
+/* <div class="max-w-2xl mx-auto">
+<div class="grid sm:grid-cols-3 gap-5 mt-5 justify-center">
+  <input
+    type="email"
+    placeholder="Email address"
+    class="px-5 py-3 w-full sm:col-span-2 bg-[#0f0f0f] border-[1px] border-cl1 rounded text-white"
+  />
+  <button
+    class="bg-[#e50914] text-white col-span-1 text-[25px] capitalize rounded py-3"
+  >
+    get started
+  </button>
+</div>
+</div> */
